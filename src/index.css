@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%; 
+}
+
+main {
+  font-family: "Montserrat", sans-serif;
+  height: 100%; 
+}
+
+
+nav {
+  height: 50px; 
+}
+
+section {
+  height: calc(100vh - 50px);
+ 
+}
+
+
+#Android-large-6, #Android-large-8 {
+  height: 100%; 
+}
+  .custom-checkbox {
+    
+    
+ 
+    background-color: #fff;
+    border: 1px solid #7B91FF; 
+    border-radius: 4px;
+    outline: none;
+}
+
+.box-shadow{
+ box-shadow: -4px 8px 25px -8px rgba(0, 0, 0, 0.15);
+}
+
+
